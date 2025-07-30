@@ -1,0 +1,280 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+  <link rel="icon" href="{% static 'img/favicon-32x32.png' %}">
+  <meta name="description" content="Villa architecture and contraction company in Malibu">
+  <meta name="keywords" content="villa,house,building,Crostacei,Malibu,malibu,contractor,contractors,constractor,architecture,California,beach,mehrdad sahafi">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Malibu Design Associates{% endblock %}</title>
+  <link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+  <link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://codepen.io/CodeBoomer/pen/PzgWYp.css'> 
+  <link rel="stylesheet"  href="{% static 'css/style.css' %}">
+</head>
+<body data-spy="scroll" data-target="#scroll-spy">
+	<!-- Navigation - Fixed Top -->
+	<nav class="navbar navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<a class="navbar-home" href="#home" role="button">
+					<svg class="lnr lnr-home"><use xlink:href="#lnr-home"></use></svg>
+				</a>	
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#scroll-spy" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<i class="material-icons">&#xE5D2;</i>
+				</button>
+<!-- 				<a class="navbar-brand" href="#home">Boom Scroll
+					<i class="material-icons">mouse</i>
+				</a> -->
+			</div>
+
+			<!-- Collect the nav links, forms for toggling -->
+			<div class="collapse navbar-collapse" id="scroll-spy">
+      
+				<!-- navbar-nav -->
+				<ul class="nav navbar-nav ">
+          <li class="logo"><img src="{% static 'img/logo.webp' %} "></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#demo">Projects</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#services">Services</a></li>					
+				</ul><!-- /.navbar-nav -->
+			</div><!-- /.navbar-collapse -->		
+		</div><!-- /.container-fluid -->
+	</nav><!-- /.fixed navigation -->
+	
+	<section id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="mouse"></div>
+					<h1>Modern Living, Malibu Spirit</h1>
+					<h4>by Malibu Design Associates,INC</h4>
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+					<p>Custom architectural designs perfectly suited to your lifestyle and unique requirements</p>
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+			<div class="row">
+				<div class="col-xs-12">
+					<a class="tutorials-link" href="https://www.youtube.com/watch?v=N6WPJodzH7o" target="_blank" role="button">Watch Videos</a>
+				</div>
+			</div>
+		</div><!-- /.container -->
+	</section><!-- /#home -->
+		
+	<section id="demo">
+		<div class="container">
+			<h1 class="about-title">PROJECTS</h1>
+
+<div class="carousel-container">
+	<button class="nav-arrow left">‹</button>
+	<div class="carousel-track">
+		<div class="card" data-index="0">
+			<img src="{% static 'img/calcare.jpg' %}" alt="Team Member 1">
+		</div>
+		<div class="card" data-index="1">
+			<img src="{% static 'img/thumbnail.jpg' %}" alt="Team Member 2">
+		</div>
+		<div class="card" data-index="2">
+			<img src="{% static 'img/crostacei.jpg' %}" alt="Team Member 3">
+		</div>
+		<div class="card" data-index="3">
+		
+		</div>
+		<div class="card" data-index="4">
+			
+		</div>
+		<div class="card" data-index="5">
+		
+		</div>
+	</div>
+	<button class="nav-arrow right">›</button>
+</div>
+
+<div class="member-info">
+	<h2 class="member-name">David Kim</h2>
+	<p class="member-role">Founder</p>
+</div>
+
+<div class="dots">
+	<div class="dot active" data-index="0"></div>
+	<div class="dot" data-index="1"></div>
+	<div class="dot" data-index="2"></div>
+	<div class="dot" data-index="3"></div>
+	<div class="dot" data-index="4"></div>
+	<div class="dot" data-index="5"></div>
+</div>
+		</div><!-- /.container -->
+	</section>	
+
+  	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-header">
+						About
+					</div>
+				</div><!-- /.col -->
+			</div><!-- /.row -->	
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+					<p >    Mehrdad Sahafi is the Principal of Design Associates, Inc., Malibu General Contractors, Inc. and Malibu Land Company LLC.
+             He has been successfully designing and Developing Estates for over 37 YEARS exclusively in Malibu.</p><p> Mr. Sahafi Develops Luxury Estates
+              for his own family and for many of the wealthiest people in the world. Born in 1959, Mr. Sahafi finished his academic training and
+               education in the discipline of Architecture in the year of 1985.</p><p> He received his Bachelor of Professional Architecture (BARCH) with 
+               Honors from The California State University Pomona (CALPOLY POMONA). During his academic years he participated in numerous National
+                and International Architectural Design Competitions and received numerous design and scholarship awards. After graduating and after
+                 few years of Architectural Field experience, he went on to establish Malibu Design Associates, Inc. in the year of 1988 in Malibu.
+                  He gradually became experienced in his field and used his expertise and creativity in designing Single family Estates in the 
+                  tough yet beautiful environ of Malibu.</p><p> He gradually started landing big contracts for complicated and large estates due to the 
+                  demand that was associated with the Malibu and its attraction to the celebrities and wealthy clientele. In the year 1995 he 
+                  established Malibu General Contractors, Inc.</p><p> He did this primarily because he did not see; contractors who build his designs 
+                  quite carry on his vision of creating flawless masterpieces.</p><p> He was adamant to have aesthetic control over the projects he 
+                  designed from the start through completion. Establishing Malibu General Contractors Inc. was his answer to this dilemma.
+                  Since the inception of Malibu General Contractors, Inc. and in the past 30 years Mr. </p><p>Sahafi’s Designed Estates and developments
+                   have been winning design acclaims and gracing the covers of Magazines. His unique brand of design, attention to detail 
+                   and unconventional approach to design makes his Estates one of a kind and talk of the town. Any project associated with Mr. </p>
+                   <p>Sahafi and his three reputable companies is bound to demand a much higher premium just because of that fact. Mr. Sahafi has 
+                   left THIRTY SEVEN years of flawless and impeccable tract record by producing architectural masterpieces and construction 
+                   projects exclusively in Malibu. His great business association with Malibu Chamber of Commerce, Better Business Bureau,
+                    (Oldest Member by membership), A+ rated from Western Regional Master Builders Association, Excellent rated at Dunn & Bradstreet
+                     and Contractors State Licensing Board are further testimony to his success. In the year 2003 he was chosen to be,
+                      “2003 BUSINESSMAN OF THE YEAR” from Malibu by the “Business Advisory Council “of the United State Congress.</p>
+</p>					
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /#about -->	
+  
+
+	<section id="features" class="features-section">
+    <h2>Our Key Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🏡</div>
+        <div class="feature-title">Custom Coastal Design</div>
+        <div class="feature-description">Tailored architectural solutions inspired by Malibu's natural beauty.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🛠</div>
+        <div class="feature-title">Full-Service Architecture & Renovation</div>
+        <div class="feature-description">From concept to construction, we handle every detail.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <div class="feature-title">Precision & Quality</div>
+        <div class="feature-description">We build with exceptional craftsmanship and attention to every detail.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌿</div>
+        <div class="feature-title">Sustainable & Eco-Friendly Solutions</div>
+        <div class="feature-description">Designs that respect nature and reduce environmental impact.</div>
+      </div>
+     <!-- <div class="feature-card">
+        <div class="feature-icon">✨</div>
+        <div class="feature-title">Timeless Aesthetic</div>
+        <div class="feature-description">Modern architecture with lasting elegance.</div>
+      </div>-->
+      <div class="feature-card">
+        <div class="feature-icon">🤝</div>
+        <div class="feature-title">Client-Centered Approach</div>
+        <div class="feature-description">We listen, collaborate, and deliver beyond expectations.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⏱</div>
+        <div class="feature-title">On-Time, On-Budget Delivery</div>
+        <div class="feature-description">Reliable project management that respects your time and investment.</div>
+      </div>
+    </div>
+  </section>
+	
+	<section id="services" style="display: flex; align-items: center; justify-content: space-between; padding: 60px; max-width: 100%; margin: auto; gap: 40px; font-family: sans-serif;">
+  
+  <!-- Left: Minimal Image Layout -->
+  <div style="flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+    <img src="{% static 'img/villa1.jpg' %}" alt="villa 1" style="width: 100%; border-radius: 12px; object-fit: cover;">
+    <img src="{% static 'img/villa2.jpg' %}" alt="villa 2" style="width: 100%; border-radius: 12px; object-fit: cover;">
+    <img src="{% static 'img/villa3.jpg' %}" alt="villa 3" style="width: 100%; border-radius: 12px; object-fit: cover;">
+    <img src="{% static 'img/villa4.jpg' %}" alt="villa 4" style="width: 100%; border-radius: 12px; object-fit: cover;">
+  </div>
+  
+
+  <!-- Right: Text Content -->
+  <div style="flex: 1; text-align: left;">
+    <h2 style="font-size: 28px; margin-bottom: 20px;">Professional Architectural Design and Luxury Construction Services</h2>
+    <p style="font-size: 16px; line-height: 1.7; color: #444;">
+      Malibu Design Associates Inc offers specialized services in architectural design and building execution.
+      Our team consists of highly experienced engineers in the field of architecture and the construction of luxury villas.
+      <br><br>
+      We provide a full range of services including design, construction, renovation, and interior decoration for high-end residential buildings.
+      Villa design and construction consulting are among our core areas of expertise.
+      <br><br>
+      Our site engineers and supervisors are carefully selected through technical and personality assessments, ensuring outstanding performance and smooth collaboration with clients and contractors.
+      The hallmark of our work is the execution of iconic projects in Malibu, California.
+      <br><br>
+      <strong>We invite you to explore our project pages and discover the quality and style that set us apart.</strong>
+    </p>
+  </div>
+
+</section>
+
+	<footer>
+		<div class="container">
+
+  <h2 style="text-transform: uppercase;">malibu design associates,INC Company</h2>
+  <p>Shaping Malibu’s skyline with timeless architectural excellence.</p>
+  
+  <div class="contact-info">
+    
+    <div class="contact-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.62 10.79a15.09 15.09 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27 12.09 12.09 0 003.8.61 1 1 0 011 1v3.5a1 1 0 01-1 1A17 17 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 12.09 12.09 0 00.61 3.8 1 1 0 01-.27 1.11z"/></svg>
+      <span><a href="tel:+13102907490">+1 (310) 290-7490</a></span>
+    </div>
+    <div class="contact-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 2l-8 5-8-5h16z"/></svg>
+      <span><a href="mailto:msahafi@aol.com">msahafi@aol.com</a></span>
+    </div>
+	<div class="contact-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 8v13h18V8l-9-6-9 6zm7 9H7v-2h3v2zm6 0h-3v-2h3v2z"/></svg>
+      <span>23823 Malibu Road, Suite 50-488 Malibu, CA 90265</span>
+    </div>
+	
+  </div>
+<div class="social-icons">
+  <a href="https://instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://t.me/yourpage" target="_blank"><i class="fab fa-telegram"></i></a>
+  <a href="https://wa.me/+13102907490" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://facebook.com/yourpage" target="_blank"><i class="fab fa-facebook-f"></i></a>
+</div>
+
+  <svg class="construction-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#907dda">
+    <path d="M32 2L12 14v14c0 11 9 20 20 20s20-9 20-20V14L32 2zM20 38a4 4 0 118 0 4 4 0 01-8 0zm20 0a4 4 0 118 0 4 4 0 01-8 0z"/>
+    <rect x="22" y="18" width="20" height="6" rx="1" ry="1"/>
+  </svg>
+				</div>
+			</div>
+		</div>	
+	</footer>
+	<a href="#home" role="button" class="scrollTop">
+		<svg class="lnr lnr-chevron-up"><use xlink:href="#lnr-chevron-up"></use></svg>
+	</a>
+  <script src="{% static 'js/scripts.js' %}"></script>
+  <script src="{% static 'js/slider.js' %}"></script>
+  <script src="{% static 'js/blog.js' %}"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
