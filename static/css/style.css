@@ -1701,9 +1701,6 @@ footer {
       max-width: 100%;
       margin: 0 auto;
       text-align: center;
-      padding-left: 200px;
-      padding-right: 200px;
-      
     }
     .features-section h2 {
       text-align: center;
@@ -1740,3 +1737,25 @@ footer {
       font-size: 0.95rem;
       line-height: 1.5;
     }
+@media (min-width: 768px) {
+  .features-section{
+      padding-left: 200px;
+      padding-right: 200px;
+  }
+}
+.sevices-img{
+  flex: 1; 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .sevices-img{
+  display: none;
+}
+}
+
+.sevices-text{
+  flex: 1; 
+  text-align: justify;
+}
