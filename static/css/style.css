@@ -378,7 +378,7 @@ a.tutorials-link:hover {
   justify-content: center;
   position: relative;
   min-height: 400px;
-  height: 60vh;
+  height: 80vh;
   padding: 50px 0;
   /* Layering due to Psuedo overlay */
 }
@@ -396,7 +396,7 @@ a.tutorials-link:hover {
   left: 0;
   width: 100%;
 height: 100vh;
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header-verma.jpg");
   background-size: cover;
   background-position: right bottom;
   background-repeat: no-repeat; /* جلوگیری از تکرار */
