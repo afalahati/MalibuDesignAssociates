@@ -142,10 +142,25 @@ nav.navbar.show-color .navbar-home {
   color: #e7e6f1;
 }
 
+
+.logo-sm img{
+  visibility: hidden;
+}
+
 @media (max-width: 767px) {
   .navbar-collapse {
     background: #e5e4ea;
   }
+  .logo-sm img{
+    visibility: inherit;
+    width: 200px;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 50px;
+    position: fixed
+    
+  }
+ 
 }
 
 ul.navbar-nav {
