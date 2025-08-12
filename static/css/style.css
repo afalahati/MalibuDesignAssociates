@@ -153,10 +153,9 @@ nav.navbar.show-color .navbar-home {
   }
   .logo-sm img{
     visibility: inherit;
-    width: 200px;
-    align-items: center;
-    margin-top: 5px;
-    margin-right: 50px;
+    width: 300px;
+    margin-left: 70px;
+   
     position: fixed
     
   }
@@ -417,7 +416,7 @@ a.tutorials-link:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.4));
+ 
   z-index: 0;
 }
 #home .container {

@@ -1,10 +1,10 @@
 const teamMembers = [
-	{ name: "CALCARE VILLA", role: "LUXURY VILLA" },
-	{ name: "THUMBNAIL VILLA", role: "LUXURY VILLA" },
-	{ name: "CROSTACEI", role: "CONCEPT" },
-	{ name: "", role: "" },
-	{ name: "", role: "" },
-	{ name: "", role: "" }
+	{ name: "VILLA CALCARE", role: "Modern beachfront luxury with stunning views in Malibu" },
+	{ name: "VILLA SHIRAZ ", role: "Elegant retreat blending classic Persian charm with modern comfort." },
+	{ name: "VILLA CROSTACEI", role: "36 units ocean view TOWN HOMES , La Brea Ave. West LA" },
+	{ name: "VILLA VERMA", role: "Embrace the endless blue at Villa Verma" },
+	{ name: "VILLA CALCARE", role: "" },
+	{ name: "VILLA SHIRAZ", role: "" }
 ];
 
 const cards = document.querySelectorAll(".card");
