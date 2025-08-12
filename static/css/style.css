@@ -401,6 +401,7 @@ height: 100vh;
   will-change: transform;
   z-index: 0;
   scrollbar-width: none;
+  overflow: hidden;
 }
 @media (min-width: 768px) {
   #home:before {
