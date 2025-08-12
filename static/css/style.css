@@ -393,14 +393,14 @@ a.tutorials-link:hover {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 400px;
-  height: 60vh;
-  background-image: url("");
-  background-image: url("https://plus.unsplash.com/premium_vector-1711987908723-445bd496c4a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+height: 100vh;
+  background-image: url("../img/header.jpg");
   background-size: cover;
-  background-position: center bottom;
+  background-position: right bottom;
+  background-repeat: no-repeat; /* جلوگیری از تکرار */
   will-change: transform;
   z-index: 0;
+  scrollbar-width: none;
 }
 @media (min-width: 768px) {
   #home:before {
