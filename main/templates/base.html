@@ -19,39 +19,46 @@
   <link rel='stylesheet' href='https://codepen.io/CodeBoomer/pen/PzgWYp.css'> 
   <link rel="stylesheet"  href="{% static 'css/style.css' %}">
 </head>
-<body data-spy="scroll" data-target="#scroll-spy">
+<body >
 	<!-- Navigation - Fixed Top -->
 	<nav class="navbar navbar-fixed-top">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-        
-					
-				
-<!-- 				<a class="navbar-brand" href="#home">Boom Scroll
-					<i class="material-icons">mouse</i>
-				</a> -->
-			</div>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- لوگو مخصوص موبایل -->
+      <a class="navbar-brand visible-xs" href="#home">
+        <img src="{% static 'img/logo-black.webp' %}" ">
+      </a>
 
-			<!-- Collect the nav links, forms for toggling -->
-			<div class="collapse navbar-collapse" id="scroll-spy">
-      
-				<!-- navbar-nav -->
-				<ul class="nav navbar-nav ">
-          <li class="logo"><img src="{% static 'img/logo-black.webp' %} "></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#demo">Projects</a></li>
-					<li><a href="#features">Features</a></li>
-					<li><a href="#services">Services</a></li>					
-				</ul><!-- /.navbar-nav -->
-			</div><!-- /.navbar-collapse -->		
-		</div><!-- /.container-fluid -->
-	</nav><!-- /.fixed navigation -->
+      <!-- دکمه toggle -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#scroll-spy">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- لوگوی دسکتاپ و منو -->
+    <div class="collapse navbar-collapse" id="scroll-spy">
+      <ul class="nav navbar-nav">
+        <li class="logo hidden-xs">
+          <img src="{% static 'img/logo-black.webp' %}" >
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#demo">Projects</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#services">Services</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
 	
 	<section id="home">
     
 		<div class="container">
-      <div class="logo-sm"><img src="{% static 'img/logo-black.webp' %} "></div>
+      
       <br><br><br><br><br>
 			<div class="row">
         

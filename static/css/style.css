@@ -5,6 +5,7 @@ div, h1, h2, h3, h4, h5, h6, p {
 html {
   height: 100%;
   font-size: 14px;
+  overflow-x: hidden;
 }
 @media (min-width: 768px) {
   html {
@@ -396,7 +397,7 @@ a.tutorials-link:hover {
   left: 0;
   width: 100%;
 height: 100vh;
-  background-image: url("../img/header-verma.jpg");
+  background-image: url("../img/header.jpg");
   background-size: cover;
   background-position: right bottom;
   background-repeat: no-repeat; /* جلوگیری از تکرار */
@@ -1610,6 +1611,11 @@ height: 100vh;
 	right: 20px;
 	padding-left: 3px;
 }
+@media (max-width: 768px) {
+    .navbar-nav li.logo {
+        display: block;
+    }
+}
 
 @media (max-width: 768px) {
 	.about-title {
@@ -1775,4 +1781,18 @@ footer {
 .sevices-text{
   flex: 1; 
   text-align: justify;
+}
+@media (max-width: 768px) {
+  .navbar .navbar-brand.visible-xs {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .navbar .navbar-brand.visible-xs img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    width: 200px;
+  }
 }
