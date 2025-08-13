@@ -20,13 +20,24 @@
   <link rel="stylesheet"  href="{% static 'css/style.css' %}">
 </head>
 <body >
+  <audio id="chopin" autoplay muted loop>
+    <!-- Nocturne Op. 9 No. 2 (MP3 - Public Domain از Musopen/ویکی‌مدیا) -->
+    <source src="https://upload.wikimedia.org/wikipedia/commons/8/82/Nocturne_in_E_flat_major%2C_Op._9_no._2.mp3" type="audio/mpeg">
+    <!-- Waltz Op. 69 No. 2 (MP3 - CC0 ترنسکد از ویکی‌مدیا) -->
+    <source src="https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8f/Chopin-waltz-op-69-no-2-in-b-minor.ogg/Chopin-waltz-op-69-no-2-in-b-minor.ogg.mp3" type="audio/mpeg">
+    <!-- Waltz Op. 69 No. 2 (OGG - CC0) -->
+    <source src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Chopin-waltz-op-69-no-2-in-b-minor.ogg" type="audio/ogg">
+    مرورگر شما پخش صوت را پشتیبانی نمی‌کند.
+  </audio>
+
+  
 	<!-- Navigation - Fixed Top -->
 	<nav class="navbar navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <!-- لوگو مخصوص موبایل -->
       <a class="navbar-brand visible-xs" href="#home">
-        <img src="{% static 'img/logo-black.webp' %}" ">
+        <img src="{% static 'img/logo-black.webp' %}" >
       </a>
 
       <!-- دکمه toggle -->
@@ -281,6 +292,14 @@
 	<a href="#home" role="button" class="scrollTop">
 		<svg class="lnr lnr-chevron-up"><use xlink:href="#lnr-chevron-up"></use></svg>
 	</a>
+  <script>
+    // برای رعایت سیاست مرورگرها: اول بی‌صدا پخش می‌کنیم، بعد از اولین تعامل کاربر صدا را باز می‌کنیم
+    document.addEventListener('click', function () {
+      const audio = document.getElementById('chopin');
+      audio.muted = false;
+      audio.play().catch(() => {});
+    }, { once: true });
+  </script>
   <script src="{% static 'js/scripts.js' %}"></script>
   <script src="{% static 'js/slider.js' %}"></script>
   <script src="{% static 'js/blog.js' %}"></script>
